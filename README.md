@@ -94,3 +94,17 @@ const haste = await hastebin("code", { url: "https://paste.example.com", extensi
 // Logs the created hastebin url to the console
 console.log(haste); // https://paste.example.com/someid.txt
 ```
+
+**Using Message and Prefix option**
+```js
+const hastebin = require("hastebin-paste");
+ 
+// You can change the extension by setting the extension option
+hastebin("code", { url: "https://paste.example.com", extention: "txt", message: "example", prefix: "example" }).then(haste => {//set message that comes after the link or set the prefix that comes before the link
+    console.log(haste)// Logs the created hastebin url and message you set to the console
+    //the output will be "example https://paste.example.com/someid.txt example"
+}).catch(error => {
+    // Handle error
+    console.error(error);
+});
+```
