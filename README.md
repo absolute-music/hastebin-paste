@@ -26,7 +26,7 @@ https://www.npmjs.com/package/hastebin-paste
 Option      | Type     | Default Value
 ----------- | -------- | ---------------------------------------------
 `url`       | `string` | `"https://hastebin.com"`
-`extension` | `string` | `"js"`
+`extension` | `string` | `"txt"`
 `message`   | `string` | `"Powered by hastebin-paste, a npm package."`
 `prefix`    | `string` | `"The link is: "`
 ## Examples
@@ -36,7 +36,7 @@ Option      | Type     | Default Value
 ```javascript
 const hastebin = require("hastebin-paste");
 
-// You can change the extension by setting the extension option
+// You can change the extension(ex. "js", "txt", default: "txt") by setting the extension option
 hastebin("code", { extension: "txt" }).then(haste => {
     // Logs the created hastebin url to the console
     console.log(haste); // https://hastebin.com/someid.txt
