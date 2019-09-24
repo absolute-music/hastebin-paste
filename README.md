@@ -24,10 +24,11 @@ https://www.npmjs.com/package/hastebin-paste
 # Options
 
 Option      | Type     | Default Value
------------ | -------- | ----------------
+----------- | -------- | ---------------------------------------------
 `url`       | `string` | `"https://hastebin.com"`
 `extension` | `string` | `"js"`
-
+`message`   | `string` | `"Powered by hastebin-paste, a npm package."`
+`prefix`    | `string` | `"The link is: "`
 ## Examples
 
 **Using .then().catch()**
