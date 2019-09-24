@@ -10,12 +10,7 @@
 A npm module for generating hastebin links. 
 https://www.npmjs.com/package/hastebin-paste
 
-## change log
-[1.0.4]Keyword updated
 
-[1.0.1, 1.0.2 and 1.0.3]README updated
-
-[1.0.0]initial publish
 
 ## Installation
 
