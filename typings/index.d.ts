@@ -4,5 +4,5 @@ declare module "hastebin-gen" {
     export interface HasteBinOptions {
         url?: string;
         extension?: string;
-    };
+    }
 }
